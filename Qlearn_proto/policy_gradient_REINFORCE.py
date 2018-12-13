@@ -62,7 +62,7 @@ import copy
 import sysv_ipc
 import tensorflow as tf
 import random
-import new_REINFORCE
+import REINFORCE
 
 import matplotlib.pyplot
 import pylab
@@ -466,7 +466,7 @@ def main():
 	sess = tf.Session()
 	if True:
 		#pdb.set_trace()
-		agent = new_REINFORCE.REINFORCEAgnet(sess, input_size, output_size, name="main")
+		agent = REINFORCE.REINFORCEAgnet(sess, input_size, output_size, name="main")
 		if not model_load:
 			tf.global_variables_initializer().run(session=sess)
 		else:
