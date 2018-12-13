@@ -3,5 +3,6 @@
 </p>
 
 # Drone-Hover project
-- Contributors : [Taewoo Lee](https://github.com/TaeWoo21/), Jinhoo Ryu (advisor: Heemin Park)
+- Contributors : [Taewoo Lee](https://github.com/TaeWoo21/), Jinhoo Ryu 
+- Advisor: Heemin Park
 - The project is based on [emlid's navio driver](https://github.com/emlid/Navio2)
